@@ -35,9 +35,11 @@ class Doctor extends Component {
         return (
             <div>
                 <Card bordered={true}>
-                    <div>
-                        name: {name}
-                    </div>
+                                     <div className='userDetails' style={{display:"flex",flexDirection:"row",justifyContent:"space-between"}}  >
+									<span>Name: {name}</span>
+									
+								    <span><a href="http://localhost:3001">Lets Chat Doctor</a></span>
+                            </div>
                 </Card>
                 <Row gutter={16} style={{display:"flex",flexDirection:"row",justifyContent:"space-between"}}>
                     <Col className='col-sm-10' span={10}>
