@@ -38,7 +38,7 @@ class Doctor extends Component {
                                      <div className='userDetails' style={{display:"flex",flexDirection:"row",justifyContent:"space-between"}}  >
 									<span>Name: {name}</span>
 									
-								    <span><a href="http://localhost:3001">Lets Chat Doctor</a></span>
+								    <span><a href="http://localhost:3001">Lets Chat Patient</a></span>
                             </div>
                 </Card>
                 <Row gutter={16} style={{display:"flex",flexDirection:"row",justifyContent:"space-between"}}>
