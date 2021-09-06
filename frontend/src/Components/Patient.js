@@ -142,10 +142,10 @@ class Patient extends Component {
                 <Row gutter={16} style={{display:"flex",flexDirection:"row",justifyContent:"space-between"}}>
                     <Col className='col-3' span={6}>
                         <Card bordered={true} >
-                            <div className='userDetails'  >
+                                                      <div className='userDetails' style={{display:"flex",flexDirection:"row",justifyContent:"space-between"}}  >
 									<span>Name: {name}</span>
 									<span>Age: {age}</span>
-								
+								    <span><a href="http://localhost:3001">Lets Chat Doctor</a></span>
                             </div>
                         </Card>
                     </Col>
