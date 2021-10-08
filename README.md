@@ -1,7 +1,7 @@
 # Dhanvantri
 
 ## To run this project Kindly install following requirements :
-
+```
 * "Truffle" v5.1.20
     * solc: "0.5.16"
     
@@ -15,7 +15,8 @@
   * "react-bootstrap": "^1.0.0",
   * "react-dom": "16.11.0",
   * "react-scripts": "3.2.0",
-  * "web3": "1.2.2"
+  * "web3": "1.2.2" 
+  ```
 
 * Install Metamask as Google Chrome extension.
 
